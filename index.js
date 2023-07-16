@@ -59,6 +59,13 @@ app.all("/khatereh", (req, res) => {
       "  vless://3905b2dd-683a-46d4-b4f9-ead78e11c443@95.183.8.15:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.speedtest.net&fp=chrome&security=reality&pbk=BdMKBI9_uTPV7k4t5cATKqE2RUPkHRoVnpXHPmXmEGo&sid=040e69e83ca040a6#RUS%F0%9F%87%B7%F0%9F%87%BA  "
   );
 });
+/* for user ===> mr radan palayeshgah 09137965519 */
+app.all("/radan", (req, res) => {
+  res.send(
+    "  vless://18675588-16a2-4269-ece4-05365dcaa185@5.42.85.179:36081?type=tcp&security=reality&sni=www.speedtest.net%3A443&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#radan|GlRo.love@xray.com  " +
+      "  vless://3905b2dd-683a-46d4-b4f9-ead78e11c443@95.183.8.15:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.speedtest.net&fp=chrome&security=reality&pbk=BdMKBI9_uTPV7k4t5cATKqE2RUPkHRoVnpXHPmXmEGo&sid=040e69e83ca040a6#RUS%F0%9F%87%B7%F0%9F%87%BA  "
+  );
+});
 app.listen(process.env.PORT || 3000, () => {
   console.log(`running on: ${process.env.PORT || 3000}`);
 });
