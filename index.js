@@ -21,8 +21,8 @@ app.all("/hosein", (req, res) => {
       "  vless://ce315ce3-c803-49c9-f4af-a704283c34a3@5.42.85.179:45942?type=tcp&security=reality&sni=www.speedtest.net&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&flow=xtls-rprx-vision&fp=chrome#hosein3|VCEC.love@xray.com  " +
       "  vless://1e4f78d2-f3e5-4df1-9441-1a042e4d323d@5.42.85.179:31574?type=tcp&security=reality&sni=www.speedtest.net&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&flow=xtls-rprx-vision&fp=chrome#hosein4|ytNq.love@xray.com  " +
       "  vless://7301d4a4-1ae8-4134-d6b7-064ae0672cbf@5.42.85.179:52193?type=grpc&security=reality&serviceName=5.42.85.179&sni=www.speedtest.net&pbk=rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA&fp=chrome#hosein-grpc|u627.love@xray.com  " +
-      "   vless://54d93c81-96e1-4cd6-9f8c-96629aa8ce94@sup.devhosein.fun:8443?type=tcp&security=reality&fp=chrome&pbk=NAEUcgDCBQRBPd92o0eggRK7KTvWrxld18Uzu29vsBw&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=9c031ce1&spx=%2F#h-sup-1-ju8f9v76   " +
-      "  vless://f097c6bf-cbdf-4ae4-a766-0ff00ba56478@sup.devhosein.fun:48038?type=tcp&security=reality&fp=chrome&pbk=49bhjtajmqdGTHtNv6U6NJBJ288hQIzw0kxBANG0k14&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=fc808d2b&spx=%2F#h-sup-2-h600l8qd  "
+      "   vless://54d93c81-96e1-4cd6-9f8c-96629aa8ce94@5.42.74.172:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=FuS6viWOid63RsnZoDbEEjRh60qcsuroPpIIBX0nghU&sid=9c031ce1&spx=%2F&type=tcp&headerType=none#h-sup-1-ju8f9v76   " +
+      "  vless://f097c6bf-cbdf-4ae4-a766-0ff00ba56478@5.42.74.172:48038?type=tcp&security=reality&fp=chrome&pbk=H6PBg02wiCuxm99qg1UosD6jpXnPZKfBjLu00CTzgBY&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=fc808d2b&spx=%2F#h-sup-2-h600l8qd  "
   );
 });
 
