@@ -95,8 +95,8 @@ app.all("/rezashojaei", (req, res) => {
   );
 });
 
-/* for user ===> ms eslami */
-app.all("/rezashojaei", (req, res) => {
+/* for user ===> ms eslami 09177247261 */
+app.all("/eslami", (req, res) => {
   res.send(
     "  vless://7607f875-583b-4d11-9f2d-b350b7b29d6f@5.42.85.179:37052?type=tcp&security=reality&sni=www.speedtest.net&pbk=rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA&flow=xtls-rprx-vision&fp=chrome#eslami|YdBw.love@xray.com  "
   );
