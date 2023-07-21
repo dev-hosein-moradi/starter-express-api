@@ -94,6 +94,13 @@ app.all("/rezashojaei", (req, res) => {
       "  vless://3905b2dd-683a-46d4-b4f9-ead78e11c443@95.183.8.15:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.speedtest.net&fp=chrome&security=reality&pbk=BdMKBI9_uTPV7k4t5cATKqE2RUPkHRoVnpXHPmXmEGo&sid=040e69e83ca040a6#RUS%F0%9F%87%B7%F0%9F%87%BA  "
   );
 });
+
+/* for user ===> ms eslami */
+app.all("/rezashojaei", (req, res) => {
+  res.send(
+    "  vless://7607f875-583b-4d11-9f2d-b350b7b29d6f@5.42.85.179:37052?type=tcp&security=reality&sni=www.speedtest.net&pbk=rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA&flow=xtls-rprx-vision&fp=chrome#eslami|YdBw.love@xray.com  "
+  );
+});
 app.listen(process.env.PORT || 3000, () => {
   console.log(`running on: ${process.env.PORT || 3000}`);
 });
