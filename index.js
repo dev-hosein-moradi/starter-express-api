@@ -69,7 +69,8 @@ app.all("/morti", (req, res) => {
 /* for user ===> yasna */
 app.all("/yasna", (req, res) => {
   res.send(
-    "  vless://bb00d8c9-96a3-45f0-db09-ff3e5963bbf8@5.42.85.179:54170?type=tcp&security=reality&sni=www.speedtest.net&pbk=UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI&flow=xtls-rprx-vision&fp=chrome#yasna|op3N.love@xray.com  "
+    "  vless://bb00d8c9-96a3-45f0-db09-ff3e5963bbf8@5.42.85.179:54170?type=tcp&security=reality&sni=www.speedtest.net&pbk=UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI&flow=xtls-rprx-vision&fp=chrome#yasna|op3N.love@xray.com  " +
+      "   vless://1a7c939a-3085-4a7d-9e6c-6b22205af429@sup.devhosein.fun:49431?type=tcp&security=reality&fp=chrome&pbk=6mLB96wI9AiwYXwyRfFG_qIDtiG1BNFMTHdBwwueTng&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=92d09f7b&spx=%2F#yasna-sup-swe2-zmm5x79w   "
   );
 });
 
