@@ -97,9 +97,7 @@ app.all("/amirhosein", (req, res) => {
 /* for user ===> rezashojaei */
 app.all("/rezashojaei", (req, res) => {
   res.send(
-    "  vless://afa6c686-3200-482d-8599-ebceb2b54e89@5.42.85.179:49574?type=tcp&security=reality&sni=www.speedtest.net&pbk=R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU&flow=xtls-rprx-vision&fp=chrome#rezashojaei|uWSe.love@xray.com  " +
       "   vless://e093d4b0-ad7e-4e4a-ab28-f021b0bd8fc4@sup.devhosein.fun:57087?type=tcp&security=reality&fp=chrome&pbk=SrYVv75hyTpRiKh3l0ziXQhsA9wyRbv0aNdbG0o06ng&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=4ba4380c&spx=%2F#rezashojaei-sup-swe2-qskvv8kc   " +
-      "   vless://26b5fd7e-300f-4652-860b-46f89df9012b@sup.devhosein.fun:50196?type=tcp&security=reality&fp=chrome&pbk=LV_NPEAVYZNQQ4Hyy7ORrCUUckfQbewvefYJp4WJDSc&sni=www.google-analytics.com&flow=xtls-rprx-vision&sid=38697713&spx=%2F#rezashojaei2goo-sup-swe2-it7ntjqc   "
   );
 });
 
