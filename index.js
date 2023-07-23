@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 
-
 /* for user ===> hosein */
 app.all("/hosein", (req, res) => {
   res.send(
@@ -87,7 +86,7 @@ app.all("/amirhosein", (req, res) => {
 /* for user ===> rezashojaei */
 app.all("/rezashojaei", (req, res) => {
   res.send(
-      "   vless://e093d4b0-ad7e-4e4a-ab28-f021b0bd8fc4@sup.devhosein.fun:57087?type=tcp&security=reality&fp=chrome&pbk=SrYVv75hyTpRiKh3l0ziXQhsA9wyRbv0aNdbG0o06ng&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=4ba4380c&spx=%2F#rezashojaei-sup-swe2-qskvv8kc   " +
+    "   vless://e093d4b0-ad7e-4e4a-ab28-f021b0bd8fc4@sup.devhosein.fun:57087?type=tcp&security=reality&fp=chrome&pbk=SrYVv75hyTpRiKh3l0ziXQhsA9wyRbv0aNdbG0o06ng&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=4ba4380c&spx=%2F#rezashojaei-sup-swe2-qskvv8kc   "
   );
 });
 
