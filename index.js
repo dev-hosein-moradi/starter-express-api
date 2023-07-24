@@ -5,7 +5,6 @@ const app = express();
 app.all("/hosein", (req, res) => {
   res.send(
     "  vless://023a09e9-ff5a-40e5-ea68-bda7228a1d51@5.42.85.179:38321?type=tcp&security=reality&sni=www.google-analytics.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#hosein2|1l7Y.love@xray.com  " +
-      "  vless://f56d05b5-8d56-4c9e-a2c6-c23eb204d7ca@95.183.8.15:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=BdMKBI9_uTPV7k4t5cATKqE2RUPkHRoVnpXHPmXmEGo&sid=040e69e83ca040a6&type=tcp&headerType=none#RUS%F0%9F%87%B7%F0%9F%87%BA  " +
       "  vless://e98f0726-4026-4feb-dd94-082ae049188e@5.42.85.179:8443?type=tcp&security=reality&sni=www.speedtest.net&pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&flow=xtls-rprx-vision&fp=chrome#hosein|A0Gm.love@xray.com  " +
       "  vless://ce315ce3-c803-49c9-f4af-a704283c34a3@5.42.85.179:443?type=tcp&security=reality&sni=www.googletagmanager.com&pbk=W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg&flow=xtls-rprx-vision&fp=chrome#hosein3|VCEC.love@xray.com      " +
       "  vless://1e4f78d2-f3e5-4df1-9441-1a042e4d323d@5.42.85.179:31574?type=tcp&security=reality&sni=www.microsoft.com&pbk=IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM&flow=xtls-rprx-vision&fp=chrome#hosein4|ytNq.love@xray.com  " +
