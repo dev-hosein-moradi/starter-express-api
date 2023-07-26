@@ -45,7 +45,8 @@ app.all("/ghazal", (req, res) => {
 /* for user ===> somayeh ios */
 app.all("/somayeh", (req, res) => {
   res.send(
-    "vless://c1dd6552-d382-4b54-a803-e5e64e7ed3f3@5.42.85.179:43801?type=tcp&security=reality&sni=www.speedtest.net&pbk=S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4&flow=xtls-rprx-vision&fp=chrome#somayeh|nPdI.love@xray.com"
+    "      vless://fd75a5f3-7524-4fc9-a0f5-7a98049031d4@5.42.74.172:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=Xx7HyT5wE7716x-UMPNRgh4Gea5WEETeIdC_400uqFo&sid=f0664a9846f0f983&type=tcp&headerType=none#singbox-swed2       " +
+      "    vless://924ec820-fd34-4578-8f64-bcd4017c1cfd@5.42.74.172:8443?type=tcp&security=reality&sni=www.speedtest.net&pbk=UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI&flow=xtls-rprx-vision&fp=chrome#hosein2-sup-swe2    "
   );
 });
 
