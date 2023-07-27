@@ -67,10 +67,10 @@ app.all("/khatereh", (req, res) => {
       "    vless://fd75a5f3-7524-4fc9-a0f5-7a98049031d4@5.42.74.172:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=Xx7HyT5wE7716x-UMPNRgh4Gea5WEETeIdC_400uqFo&sid=f0664a9846f0f983&type=tcp&headerType=none#singbox-swed2    "
   );
 });
-/* for user ===> amirhosein */
-app.all("/amirhosein", (req, res) => {
+/* for user ===> radan */
+app.all("/radan", (req, res) => {
   res.send(
-    "  vless://ebd644dd-ced7-4e4d-e2fb-63802dd46bc2@5.42.85.179:17276?type=tcp&security=reality&sni=www.speedtest.net&pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&flow=xtls-rprx-vision&fp=chrome#amirhosein|aDzC.love@xray.com  "
+    "   vless://1a76601b-2d83-4539-e9ea-68c3a557a925@5.42.74.172:50268?type=tcp&security=reality&sni=www.speedtest.net&pbk=R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU&flow=xtls-rprx-vision&fp=chrome#radan-sup-swe2     "
   );
 });
 
