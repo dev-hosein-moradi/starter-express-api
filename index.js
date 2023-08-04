@@ -6,7 +6,7 @@ app.all("/hosein", (req, res) => {
   res.send(
     "   vless://a6cbd9e1-ebc5-42c1-a173-3f450cb93268@5.42.74.172:5423?type=tcp&security=reality&sni=www.speedtest.net&pbk=qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY&flow=xtls-rprx-vision&fp=chrome#hosein-sup-swe2   " +
       "  vless://924ec820-fd34-4578-8f64-bcd4017c1cfd@5.42.74.172:8443?type=tcp&security=reality&sni=www.speedtest.net&pbk=UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI&flow=xtls-rprx-vision&fp=chrome#hosein2-sup-swe2  " +
-      "   vless://fd75a5f3-7524-4fc9-a0f5-7a98049031d4@5.42.74.172:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=Xx7HyT5wE7716x-UMPNRgh4Gea5WEETeIdC_400uqFo&sid=f0664a9846f0f983&type=tcp&headerType=none#singbox-swed2    "
+      "   vless://7ed4c39e-b00a-482d-bf21-eac0a84ed0df@5.42.74.172:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=Xx7HyT5wE7716x-UMPNRgh4Gea5WEETeIdC_400uqFo&sid=f0664a9846f0f983&type=tcp&headerType=none#singbox-swed2      "
   );
 });
 
