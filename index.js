@@ -36,7 +36,7 @@ app.all("/ghazal", (req, res) => {
 /* for user ===> somayeh ios */
 app.all("/somayeh", (req, res) => {
   res.send(
-    "   vless://3827334d-ce8c-4dfe-c667-7369e60ed0e2@5.42.74.172:22254?type=tcp&security=reality&sni=www.speedtest.net&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#somayeh-swe    "
+    "   vless://3827334d-ce8c-4dfe-c667-7369e60ed0e2@5.42.74.172:22254?type=tcp&security=reality&sni=www.speedtest.net&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#somayeh-swe"
   );
 });
 
