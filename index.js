@@ -4,7 +4,8 @@ const app = express();
 /* for user ===> hosein */
 app.all("/hosein", (req, res) => {
   res.send(
-    "    vless://4a1518c2-1577-4a59-a69d-75d04eb26173@91.193.43.168:8443?type=tcp&security=reality&fp=chrome&pbk=1VHvPIzchFjRqyz0qGgRCMNxKfPVNf5YWjDtxjZWEjo&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=77b8e452&spx=%2F#hosein-ams-     "
+    "    vless://4a1518c2-1577-4a59-a69d-75d04eb26173@91.193.43.168:8443?type=tcp&security=reality&fp=chrome&pbk=1VHvPIzchFjRqyz0qGgRCMNxKfPVNf5YWjDtxjZWEjo&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=77b8e452&spx=%2F#hosein-ams     " +
+      "    vless://b8dff6cb-21c9-4d69-ad44-235a76814235@91.193.43.168:2053?type=grpc&serviceName=91.193.43.168&security=reality&fp=chrome&pbk=_fjIAqfPiUMgbGDkJxf0kz5fFDAhfNFeALrhKcG6bHo&sni=www.speedtest.net&sid=0742989b&spx=%2F#ams-grpc     "
   );
 });
 
