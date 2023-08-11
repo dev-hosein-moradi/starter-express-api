@@ -6,7 +6,8 @@ app.all("/hosein", (req, res) => {
   res.send(
     "    vless://4a1518c2-1577-4a59-a69d-75d04eb26173@91.193.43.168:8443?type=tcp&security=reality&fp=chrome&pbk=1VHvPIzchFjRqyz0qGgRCMNxKfPVNf5YWjDtxjZWEjo&sni=www.speedtest.net&flow=xtls-rprx-vision&sid=77b8e452&spx=%2F#hosein-ams     " +
       "    vless://b8dff6cb-21c9-4d69-ad44-235a76814235@91.193.43.168:2053?type=grpc&serviceName=91.193.43.168&security=reality&fp=chrome&pbk=_fjIAqfPiUMgbGDkJxf0kz5fFDAhfNFeALrhKcG6bHo&sni=www.speedtest.net&sid=0742989b&spx=%2F#ams-grpc     " +
-      "    vless://74489072-37b6-420d-b616-585ca2b3f41d@91.193.43.168:44660?type=tcp&security=reality&fp=chrome&pbk=GU9nhOctJxBTaE2spZv3rA2DC4A8vkpkijKbtFxu6HI&sni=www.google-analytics.com&flow=xtls-rprx-vision&sid=23d95be7&spx=%2F#ams-reality-ga-     "
+      "    vless://74489072-37b6-420d-b616-585ca2b3f41d@91.193.43.168:44660?type=tcp&security=reality&fp=chrome&pbk=GU9nhOctJxBTaE2spZv3rA2DC4A8vkpkijKbtFxu6HI&sni=www.google-analytics.com&flow=xtls-rprx-vision&sid=23d95be7&spx=%2F#ams-reality-ga-     " +
+      "     vless://f837ead1-3c6b-45fb-a936-211b0af158c7@91.193.43.168:22990?type=tcp&security=reality&fp=chrome&pbk=ijdseLEh4ZqJVpFwvkBUeBY3OyYM4SfIAyF688r6KxQ&sni=www.googletagmanager.com&flow=xtls-rprx-vision&sid=12b1583e&spx=%2F#ams-g2-     "
   );
 });
 
