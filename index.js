@@ -9,7 +9,10 @@ app.all("/hosein", (req, res) => {
       "    vless://74489072-37b6-420d-b616-585ca2b3f41d@91.193.43.168:44660?type=tcp&security=reality&fp=chrome&pbk=GU9nhOctJxBTaE2spZv3rA2DC4A8vkpkijKbtFxu6HI&sni=www.google-analytics.com&flow=xtls-rprx-vision&sid=23d95be7&spx=%2F#ams-reality-ga-     " +
       "     vless://f837ead1-3c6b-45fb-a936-211b0af158c7@91.193.43.168:22990?type=tcp&security=reality&fp=chrome&pbk=ijdseLEh4ZqJVpFwvkBUeBY3OyYM4SfIAyF688r6KxQ&sni=www.googletagmanager.com&flow=xtls-rprx-vision&sid=12b1583e&spx=%2F#ams-g2-     " +
       "    vless://9b67c33d-3084-4ed0-a145-4ad78e7694d7@91.193.43.168:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.speedtest.net&fp=chrome&pbk=C3svVhaCRSS7KYHm5V8NUqBVdHY5YKuQMqKVr6xTIEA&sid=57de60688d7cd6f2&type=tcp&headerType=none#ams-singbox      " +
-      "    vless://212008c7-bc4a-4566-9456-8599e44fd972@91.193.43.168:16789?type=tcp&security=reality&fp=chrome&pbk=bcjiDw-KDTnJzSWlP_3mFwZCkRwYQfV1NL0B9nJiWS8&sni=www.crowdsource.google.com&flow=xtls-rprx-vision&sid=053a4384&spx=%2F#ams-g3-    "
+      "    vless://212008c7-bc4a-4566-9456-8599e44fd972@91.193.43.168:16789?type=tcp&security=reality&fp=chrome&pbk=bcjiDw-KDTnJzSWlP_3mFwZCkRwYQfV1NL0B9nJiWS8&sni=www.crowdsource.google.com&flow=xtls-rprx-vision&sid=053a4384&spx=%2F#ams-g3-    " +
+      "    vless://843a5f1c-c08c-4682-88db-df66a3566821@ams.devhosein.fun:58796?type=tcp&path=%2F&host=speedtest.net&headerType=http&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1#test1-ssl-    " +
+      "    vless://0bba1367-8c48-4b6d-b26b-e456fb65af95@ams.devhosein.fun:38542?encryption=none&security=tls&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&path=%2F#test2-ssl-      " +
+      "    vless://60268094-dd60-42d2-a0bd-674ddf97ad41@ams.devhosein.fun:59408?encryption=none&security=tls&alpn=h2%2Chttp%2F1.1&fp=chrome&type=grpc#test3-ssl-      "
   );
 });
 
