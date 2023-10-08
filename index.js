@@ -8,8 +8,6 @@ app.all("/secure/hosein", (req, res) => {
       "        " +
       process.env.HOSEIN2 +
       "        " +
-      process.env.HOSEIN3 +
-      "        " +
       process.env.HOSEIN4 +
       "        " +
       process.env.HOSEIN5 +
@@ -25,13 +23,7 @@ app.all("/secure/ghazal", (req, res) => {
       "        " +
       process.env.GHAZAL2 +
       "        " +
-      process.env.GHAZAL3 +
-      "        " +
-      process.env.GHAZAL4 +
-      "        " +
-      process.env.GHAZAL5 +
-      "        " +
-      process.env.GHAZAL6
+      process.env.GHAZAL3
   );
 });
 
@@ -44,11 +36,7 @@ app.all("/secure/raheleh", (req, res) => {
       "        " +
       process.env.RAHELEH3 +
       "        " +
-      process.env.RAHELEH4 +
-      "        " +
-      process.env.RAHELEH5 +
-      "        " +
-      process.env.RAHELEH6
+      process.env.RAHELEH4
   );
 });
 
@@ -61,11 +49,7 @@ app.all("/secure/zahra", (req, res) => {
       "        " +
       process.env.ZAHRA3 +
       "        " +
-      process.env.ZAHRA4 +
-      "        " +
-      process.env.ZAHRA5 +
-      "        " +
-      process.env.ZAHRA6
+      process.env.ZAHRA4
   );
 });
 
