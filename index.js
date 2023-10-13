@@ -34,9 +34,7 @@ app.all("/secure/raheleh", (req, res) => {
       "        " +
       process.env.RAHELEH2 +
       "        " +
-      process.env.RAHELEH3 +
-      "        " +
-      process.env.RAHELEH4
+      process.env.RAHELEH3
   );
 });
 
@@ -47,9 +45,7 @@ app.all("/secure/zahra", (req, res) => {
       "        " +
       process.env.ZAHRA2 +
       "        " +
-      process.env.ZAHRA3 +
-      "        " +
-      process.env.ZAHRA4
+      process.env.ZAHRA3
   );
 });
 
