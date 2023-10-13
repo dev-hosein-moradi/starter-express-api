@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-/* for user ===> hosein */
+/* for user ===> hosein root */
 app.all("/secure/hosein", (req, res) => {
   res.send(
     process.env.HOSEIN1 +
